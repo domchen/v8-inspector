@@ -1,6 +1,6 @@
 {
   "name": "v8-inspector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dom Chen",
   "homepage": "http://www.idom.me/",
   "description": "v8-inspector is a debugger interface that uses the Blink Developer Tools for v8 embedded applications. ",
@@ -19,7 +19,7 @@
     "url": "https://github.com/domchen/v8-inspector.git"
   },
   "bin": {
-    "tspack": "./bin/v8-inspector"
+    "v8-inspector": "./bin/v8-inspector"
   },
   "engines": {
     "node": ">=0.8.0"
