@@ -1,6 +1,6 @@
 {
   "name": "v8-inspector",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Dom Chen",
   "homepage": "http://www.idom.me/",
   "description": "A debug tool based on Blink Developer Tools for v8 embedder. ",
