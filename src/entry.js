@@ -72,16 +72,19 @@ function createConfig(argv) {
     var options = new Config(argv, true);
     var length = argv.length;
     var hasDebugPort = false;
+    var hasWebPort = false;
     for (var i = 0; i < length; i++) {
         if (argv[i].indexOf("--debug-port") != -1) {
             hasDebugPort = true;
-            break;
+        }
+        if (argv[i].indexOf("--web-port") != -1) {
+            hasWebPort = true;
         }
     }
 
     return [
         "--no-inject",
         "--debug-port=" + (hasDebugPort ? options.debugPort : "5959"),
-        "--web-port=" + options.webPort
+        "--web-port=" + (hasWebPort?options.webPort:"8888")
     ];
 }
