@@ -25,7 +25,20 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "biased-opener": "^0.2.8",
-    "node-inspector": "^0.12.8"
+    "async": "~0.9",
+    "biased-opener": "~0.2.2",
+    "debug": "^2.2.0",
+    "express": "^4.12.3",
+    "glob": "^5.0.5",
+    "path-is-absolute": "^1.0.0",
+    "rc": "^1.0.1",
+    "semver": "^4.3.4",
+    "serve-favicon": "^2.1.1",
+    "strong-data-uri": "^1.0.0",
+    "v8-debug": "~0.7.1",
+    "v8-profiler": "~5.6.0",
+    "which": "^1.1.1",
+    "ws": "^1.0.1",
+    "yargs": "^3.9.0"
   }
 }
