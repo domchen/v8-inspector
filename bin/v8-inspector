@@ -82,10 +82,10 @@ function createConfig(argv) {
             hasWebPort = true;
         }
     }
-
     return [
         "--no-inject",
-        "--debug-port=" + (hasDebugPort ? options.debugPort : "5959"),
-        "--web-port=" + (hasWebPort?options.webPort:"8888")
+        "--web-port=" + options.webPort,
+        "--debug-port=" + options.debugPort,
+        "--debug-host=" + options.debugHost
     ];
 }
